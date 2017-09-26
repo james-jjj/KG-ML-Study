@@ -29,15 +29,15 @@
 - 본인 폴더 생성 및 테스트 코드 작성
   - KG-ML-Study/james/HelloWorld.ipynb 참고
 - git 업로드 (본인의 브랜치에 업로드)
-  - git 브랜치생성
-    - git checkout -b {브랜치 이름}
+  - git 브랜치생성
+    - git checkout -b {브랜치 이름}
   - add
     - git add *
   - commit
     - git commit -m "커밋 내용을 입력"
   - push
     - git push origin {브랜치이름}
-    - 저장소 찾지 못할 경우 : git remote add origin https://github.com/james-jjj/KG-ML-Study.git
+    - 저장소 찾지 못할 경우 : git remote add origin https://github.com/james-jjj/KG-ML-Study.git
     - 최초 1회 github ID / password 입력
 - github.com/james-jjj/KG-ML-Study 접속 후 정상 커밋 확인
 ---
