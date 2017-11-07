@@ -54,6 +54,8 @@
 
 - 활성화 함수 구현
   - ReLU (수정된 선형 유닛:Rectified Linear Unit) 
+
+    ![Image](./images/ReLU.png)
     - 미분이 간단하여, 속도가 빠르다
     - Gradient Vanishing 문제 해결을 위해 많이 사용되고 있음
     - Gradient Vanishing이란?
@@ -62,28 +64,40 @@
     - ReLU의 단점 : 한번 음수가 나오면 0으로 출력하므로, 더이상 진행이 되지 않는다.  
 
   - ReLU6
+  
+    ![Image](./images/ReLU6.png)
     - ReLU 함수의 선형증가 부분에 상한을 설정
     - 값이 무한정 커지는 문제를 방지
 
   - sigmoid
+  
+    ![Image](./images/sigmoid.png)
     - 항상 0과 1사이의 값만 갖도록하는 비선형 함수
     - 단순 0과 1이 아닌, 그 사이 모든 값을 가지며 미분 가능하므로 확률로 해석할 때 유용하게 사용됨
     - Gradient Vanishing 문제가 있다   
     
   - tanh (하이퍼볼릭 탄젠트 함수)
+  
+    ![Image](./images/Tanh.png)
     - 함수값의 범위가 -1과 1사이. (시그모이드와 형태는 동일하나, 표현가능 범위가 넓다)
     - 시그모이드의 크기와 위치를 조절한 함수로, 0을 기준으로 대칭이기에 학습 속도가 빠르다 
     - 시그모이드와 동일하게 Gradient Vanishing 문제가 있다.
     
   - softsign
+  
+    ![Image](./images/softsign.png)
     - +1/-1을 만드는 부호함수를 부드럽게 변형한 함수
     - tanh의 대안으로 등장하였음
   
   - softplus
+  
+    ![Image](./images/softplus.png)
     - 부드러운 ReLU
     - ReLU의 안정성을 보완하기 위해 사용되는 함수
    
   - ELU(지수 선형 유닛:Exponential Linear Unit) 
+  
+    ![Image](./images/ExpLU.png)
     - softplus와 동일한 특성을 가지는 함수
     - 하부 점근선이 0이 아닌, -1이라는 점이 다르다.
     
