@@ -6,20 +6,25 @@
   
 - Python 설치 
 ~~~  
-  버전 확인 : python -V
-  2버전 설치 or 미설치 시 3버전 설치가 필요함
+  1. 버전 확인 : python -V
+  2. 2버전 설치 or 미설치 시 3버전 설치가 필요함
     brew install python3
-  python3 alias 설정
+  3. python3 alias 설정
     vi ~/.bash_profile 
-    alias python=“python3" 
+    a버튼 입력 후 INSERT 상태 변경. 최상단에 아래 명령어 한줄 추가 alias python=“python3" 
+    esc 버튼 입력 -> : 입력 -> wq 입력 -> 엔터
     source ~/.bash_profile
-  version 확인 (python -V 명령어)
+  4. version 확인 (python -V 명령어)
 ~~~
 
 - Anaconda / Jupyter notebook 설치 (아래 페이지 이동 후 설치)
   - http://jupyter.readthedocs.io/en/latest/install.html
   - https://www.anaconda.com/download/
   - 버전 확인 : conda -V
+  - 버전이 확인되면 정상 설치되었음.
+  - 실행방법 (아래 2가지 방법)
+  -- Anaconda 실행 후 Jupyter notebook 실행
+  -- 터미널에서 jupyter notebook 입력
 
 ### GitHub 연동하기
 - git clone (원격 저장소 -> 로컬 저장소로 복사)
